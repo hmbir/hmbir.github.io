@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>距离顶部的距离</title>
+    <style>
+        #Slide_downward {
+            height: 3000px;
+        }
+    </style>
+</head>
+
+<body onscroll="get()">
+    <div id="Slide_downward">Slide_downward</div>
+    <div id="gethideen">gethideen</div>
+
+    <script>
+        function get() {
+            //滚动条距离顶部的距离
+            var topverb1 = document.documentElement.scrollTop;
+            //body文本内容的高度,也可以直接设置文本的高度但不能加 px
+            var topverb2 = document.body.scrollHeight;
+            //var topverb2 = document.body.scrollHeight="300";
+            if (topverb1 >= topverb2 / 3) {
+                document.getElementById("gethideen").style.display = "inherit";
+            } else {
+                document.getElementById("gethideen").style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

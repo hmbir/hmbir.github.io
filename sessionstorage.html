@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+    <style>
+        .myother {
+            display: flex;
+        }
+
+        .other {
+            margin-right: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="result"></div>
+    <br>
+    用户名:
+    <input id="username" type="text">
+    <br>
+    密 码:
+    <input id="password" type="text">
+    <br>
+    <br>
+    <button>提交</button>
+
+    <br>
+    <br>
+    其他页面：
+    <br>
+    <br>
+    <div class="myother">
+        <div class="other">页面1</div>
+        <div class="other">页面2</div>
+        <div class="other">页面3</div>
+        <div class="other">页面4</div>
+    </div>
+
+    <script>
+        var sysname = "111";
+        var syspwd = "222";
+        // 检测浏览器支持
+        if (typeof (Storage) !== "undefined") {
+            // 存储
+            sessionStorage.setItem("lastname", "11");
+            // 检索
+            document.getElementById("result").innerHTML = sessionStorage.getItem("lastname");
+        } else {
+            document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+        }
+        var btn = document.querySelector("button");
+        var uname = document.querySelector("#username");
+        var pwd = document.querySelector("#password");
+        btn.onclick = function () {
+            console.log(uname.value, pwd.value);
+            sessionStorage.setItem("账号", uname.value);
+            sessionStorage.setItem("密码", pwd.value);
+        }
+        var page = document.querySelectorAll(".other");
+        for (var i = 0; i < page.length; i++) {
+            page[i].onclick = function () {
+                var myname = document.getElementById("result").innerHTML = sessionStorage.getItem("账号");
+                var mypwd = document.getElementById("result").innerHTML = sessionStorage.getItem("密码");
+                // console.log("用户名:",myname,"密码:",mypwd);
+                if (myname == sysname && mypwd == syspwd) {
+                    console.log("已登录，正在跳转至页面");
+                } else {
+                    console.log("未登录，正则跳转至登录页面");
+                }
+            }
+        }
+        var obj = {
+            id:1,
+            name: 2,
+        }
+        obj.id = 1;
+    </script>
+
+</body>
+
+</html>
