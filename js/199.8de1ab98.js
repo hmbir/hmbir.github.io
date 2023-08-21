@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkir"]=self["webpackChunkir"]||[]).push([[199],{2199:function(t,s,n){n.r(s),n.d(s,{default:function(){return c}});var r=function(){var t=this,s=t._self._c;return s("div",{staticClass:"index"},[s("div",{staticClass:"header"}),s("div",{staticClass:"content"},[s("router-link",{attrs:{to:"anime"}},[t._v("动漫")]),s("router-link",{attrs:{to:"booklist"}},[t._v("阅读")])],1)])},e=[],i={name:"index",props:{msg:String},data(){return{}},methods:{}},a=i,u=n(1001),l=(0,u.Z)(a,r,e,!1,null,"5ac2c981",null),c=l.exports}}]);
-//# sourceMappingURL=199.8de1ab98.js.map
