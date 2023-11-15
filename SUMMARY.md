@@ -18,3 +18,5 @@
 [writing.md](./writing.md)
 
 [writing](./writing)
+
+[C#删除图片](C#)
