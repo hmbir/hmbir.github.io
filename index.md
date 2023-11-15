@@ -10,4 +10,6 @@
 
 ### md
 
-[a.md](./a.md)
+[writing.md](./writing.md)
+
+[writing](./writing)
