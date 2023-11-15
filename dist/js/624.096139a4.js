@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkir"]=self["webpackChunkir"]||[]).push([[624],{8624:function(t,r,n){n.r(r),n.d(r,{default:function(){return l}});var s=function(){var t=this,r=t._self._c;return r("div",{staticClass:"index"},[r("div",{staticClass:"header"}),r("div",{staticClass:"content"},[r("router-link",{attrs:{to:"country"}},[t._v("地图")]),r("router-link",{attrs:{to:"table"}},[t._v("表格")])],1)])},e=[],a={name:"index",props:{msg:String},data(){return{}},methods:{}},i=a,u=n(1001),c=(0,u.Z)(i,s,e,!1,null,"559ccf02",null),l=c.exports}}]);
+//# sourceMappingURL=624.096139a4.js.map
