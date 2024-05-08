@@ -1,245 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>ir</title>
+  <title>hir</title>
   
   
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-13T12:42:39.533Z</updated>
+  <updated>2024-05-08T12:33:09.101Z</updated>
   <id>http://example.com/</id>
   
   <author>
-    <name>cc</name>
+    <name>h</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Win11系统文件夹右键属性自定义选项消失</title>
-    <link href="http://example.com/p/225f6e5f/"/>
-    <id>http://example.com/p/225f6e5f/</id>
-    <published>2024-02-13T12:21:30.000Z</published>
-    <updated>2024-02-13T12:42:39.533Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p><a href="https://zhuanlan.zhihu.com/p/657129923">Win11系统文件夹右键属性自定义选项消失</a></p><h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p>● 1：<br>Win+R运行regedit打开注册表编辑器，找到以下两项：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer</span><br><span class="line">HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer</span><br></pre></td></tr></table></figure><p>在每一项的右侧面板中，找到以下三项（如果没有则不用管）：<br>NoCustomizeThisFolder<br>NoCustomizeWebView<br>ClassicShell</p><p>找到后打开，将数值设为0。重启电脑即可。<br>注：方法来自天涯问答</p><p>● 2：<br>1）试试开始 》 查找 “控制面版”<br>2）右上角点击查看 “大图标” 》 点击 “文件夹选项” (Folder Options)<br>3）点击“查看” 》 点击“重置文件夹”<br>4）重置完后，重启电脑。</p>]]></content>
-    
-    
-    <summary type="html">电脑</summary>
-    
-    
-    
-    <category term="电脑" scheme="http://example.com/categories/%E7%94%B5%E8%84%91/"/>
-    
-    
-    <category term="电脑" scheme="http://example.com/tags/%E7%94%B5%E8%84%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Celeste</title>
-    <link href="http://example.com/p/4a17b156/"/>
-    <id>http://example.com/p/4a17b156/</id>
-    <published>2024-01-20T07:55:00.000Z</published>
-    <updated>2024-01-30T14:23:37.000Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="截图"><a href="#截图" class="headerlink" title="截图"></a>截图</h3><p><img src="https://vip.helloimg.com/i/2024/01/15/65a513d6cc1b4.png" alt="03.png"></p><h3 id="评价"><a href="#评价" class="headerlink" title="评价"></a>评价</h3><ol><li>精致的关卡设计——完全围绕一个核心展开</li><li>出色的引导方式——不仅仅是收集，还有指引</li><li>巧妙的细节设计——高难度却不劝退</li></ol><blockquote><p>2、当一个新的机关出现时，必然会引入新的规则，作者并不直接告诉玩家暗藏的玩法，而是通过在特定的地方设置一个草莓，引导玩家自己发现。 当玩家试图吃到草莓的时候，就会发现这种空间方块具有从一个方向冲刺并立刻反向冲刺的规则。</p></blockquote><img src="https://picx.zhimg.com/v2-86cff5e449c0718a9a740b83fd3a682e_r.jpg?source=1def8aca" width="100px" alt="" />[如何评价独立游戏《Celeste》？ - aammee的回答 - 知乎](https://www.zhihu.com/question/266207320/answer/307381915)]]></content>
-    
-    
-    <summary type="html">塞莱斯特</summary>
-    
-    
-    
-    <category term="游戏" scheme="http://example.com/categories/%E6%B8%B8%E6%88%8F/"/>
-    
-    
-    <category term="记录" scheme="http://example.com/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Game</title>
-    <link href="http://example.com/p/83199eb2/"/>
-    <id>http://example.com/p/83199eb2/</id>
-    <published>2024-01-02T07:55:00.000Z</published>
-    <updated>2024-02-13T12:42:39.529Z</updated>
-    
-    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="fe3cae41e3dd6dfff4bba8265ff1ee5c17669770c10e8b1152395976f7de3afd">fb95aa7c407f8ccaa0f86ec63474b39f452eee2b01b48e993f20eaa815a6116685f81be3186ac3d307d468b06032ec75171dfaa517135e9c5903f2c7516e66f6bc62d459571ae1d510a70bc6f029ade3c02078b4b337700d426d323b61be24ec4956fcd2e8a0ba0b9a74333b02d1dc63e0ce3fca1371646e0411a55c4a7d04234b489d8d1d6cf6aa692159a5652f41e11b928d098a18f07dc5a7998107c06e20fa86826291c6e5de7f92e1e20d1740991fbfdcd96563b04efb6840e3b7c773489e43809e784a7c2f61b97626ed1c7527619ca7e24093e7bf7059898204a3a1093c3b996e142ca94b281b7a484ee4c90ef8ce64deeaf16673d533b33a890199a3937a76d19bc57fa7da6f6316ee65a024f1b7305bcda00cc0f2cd838f5bb692c7dc9707fb23f233bf65e65f227bbbc53511b2478d48ec456a127849fbf5d80eebeaa110df5d1da582b9e0b3150800f0ec0eb4d7f4de8d40346d640771bf162bd181cd7b7e367ace06465b53a7e6f01b7459da1b3e0a85eb7adb7601422d5021d404b952ddcfdef653c6c9a1f5c4d37ac95d3218d0ee5ca2eddce8baff0a6dabb245a8874c794543d4c08ea082ac60099fac53ad80c524bd49a2b7fa1b9560fb6990c573cf46f6695aa5ddfa61d2e230bac7333d8f3462221fd1101ac0e6a6aabaf43202740ffd600b066eed865301060457cdac927ac3892a492ad893848a2b3a2e70d69d405550d8373ae7608befca823b74befeb8d6a503e2aff3f66d5bd5fd0e97bd7ab3614c2cfc41e689d46cbb39bc8ff0f765c6c136af8c60180217afb3e5e4db03f82d45c47aa20386f399b214781428c040cb515a5e800fa749e11fd773f6c70c99d44e72aebadb43cbd09358090b831f55f6a71c373bd60e7db7dac1ddf344d3d92abe4180fc3ce24629559320de1938b730f44234663bcb4c02e3d6b16059c28d13e5bba25e69f8e60d797f004336c7e20901fc12885e071ee27463d2a750cf3e89a58a87978486c4894ba7d939e6b1b9d0c8235cfb344a0d94eee02694811fd6cb8dfc49349e54ce173ea5ecffe6a07680733d0a115c4d6e32c86b922ea0ce836d03d3a47ca593b5d5f9c1136259aa771007cc0c426a5c405bd3c1416a31d508bdb8f2187caf1a67ccb3386d7576c3e1040240cda6151649f2cec58aeb065b63d114bd5af747f0fb1a5819720a0481d1cc9c588e51333038a191de682d4a56e19d902a96ea00ceebd47f8f6d86839f8afdc2307aca882859125f0e7f94194d2a76842703a2e16928997fe64bbb60fe1446e3159bdaab95f10b3130e0e9612d685df4af48204adb76118ae90a34da73fa3ec2c2df95dd4afa7d8983211065ae80ce0527bbf0895e9c18404f4a30f66f7dc7acc5b27f860f930e51d5a76e8695598546746d0e97c6914e46b434f7c215117ef916d1fc07df5705b0f5a57005f046747eb742f29fc0fabc847f3b8be45b97b4b458c3dad67c6f84393ddf7b841c4c4a59a3353b8e79ffa92f82e54fa61229016e39783d1ff4f67e089516d4ccbe2de35801d6350a51db49ad0de4183a353984b6d3ef672e5cdd66c674191517255f28f4eacf2194479db7a20f612ce802927f4c66a8ec03fe69adb7a4934ff4954e63f244e90149c120ca0e5814558dc3dcd48cbc6290c2c81946f16c636427934a7c302b1a1905885b5f0a657a97a8edfa74d115c7e61a2220e227429b889953363beec85e41ec1f02f91fca40f385f6c829709542ff7fe074af1faeabde4e4d51b935b54b38b8190eedaa99af6a93b7ca3cc925c9d4422c887d7d15294d032099f2fdc85674937bb708a3b353bf029d744aa74dcf0e158f115ebbe4c5dae2697b99b92e3351f5ceaf986e019e551bcd6078d81ce61b6c6862a29649bdbd6680a546489ab2f5fe73d6f9fc897fd26964aaecea8fe63ff8a8c7d399fa8a38e2e05340a44de4ad040211507921468a4acdc17c88aaa16b6e9e4a47b4e5284de8a3d2ee814d27278600c7fa52c2054d907cb604408107a5ec6bde7dd09eed21867778efa6e6b6f46be66c61c2989e6feb9538aa6f2f86f079baaa26d31f4784b47ed1065025867c7e581347948410970452fded94a01242c02ab67795bd64a6bc6f24cdcf8bb0968b93b9b812fffc49b2be358c8b3b11fa784540dfe4a6d7d0fabb328eeb47582c2ebfb5ab76779e7ca4423d15bd6660652e6c7d92e22b903c90562048ab06ffaef9fc16fa7be702502cf06ace231e3732db2d2b2472aae544282e85819be5d1bc35409e18a7abf1e0725e84639616ff64033e3fe345fbc1a0e713ed950bae8a3e7727642f13dcef81bfdb0d18860d26b51bb0af3b08a54f34f2e9f4999f155f971f8b9b38c5e21ff9c4f1198dca4656972e09102dc784a91525eebece2dfb96c72d9d3ff473c7b3d21d8a59efd8b25f8eba3ab30ba70c833b10169b9ddd8ca665418d32ec1b1bffe5530835704e57f9d4afd308b4a042f6d131a1d22f6c47d6dd623c89ea0e6673d74e5354f342071a241ce2122c1b6868acc837c69ced319ba1fc3533a19a490a8a0755de31dbdb9c97410cc89f5b8b765e2f61be6c6392709b4433382a539ba69b6b9782197e56a750b063f0831b1f41df72efdde6a152cf3e4062cbe110c0ce0d802b042bd69d1f9198000197113c344ae7695485e4e3d1b40786c79c795e5084cf3060bf35f563e44d79c7d992794c49c36f71f569196ad65e586f6f3b9802934479c5b617d96fa583bb310377ae07b817a70f41c5bc1f6835cc684bba04fa42575fc3aa8f189fc5239d1de752548e55b75212621d405cff484d8cf0c4bcc8c31c055b5d720fff3b3d5c24f263503969488ef7394631451a148c9828f64627516d4966a06433189c5af7ae7a5b1b8f943f57f081cbdcd4592efae0ca6437336a6747a3195e561ee52555958bf7d179c8c714c04006a5d0ad5139e98543d88a9fec22a559bfe06bcb4c2c7f2492b15ca45da88ad40bd6506ba5d038836b04b7b99851105d2e4052794e5a4bba77c73ac7db0fe58aeb51196320eed6b2d8fe8a866e5a45b75fa7ce80a960a1678be23dd9cce59ce4a56ef1ac162a64048fdc93324bfeb91f2f66a02ac6f6655c44be1b8d4a04769df8c399f9269a1ceef5ee6d4de5b8c45ab0b4b595df8809f797c331a23ff7a310c12516db911235f5882ebe235e2bf6cd4e580461f78399c6ddae271f160258dee812116d4fe7e85e188408523d54c383c2b3ad610f26361de06562579d747afa2c075adb266ca937f54446a670f4188e2179f67c0bb66216360088f89ada34056710902c0c0482b345033fadb1ad0fa825b9e7326913afd2204c36f8473aad90d22940b96bc587712671409a05c2749465eeadc8d206877db2328b8dc3d577b0ac67db3abd0b4719d209c2c05cdfde430deb1b8f2e43398e9d474f7a1867c1c7eb78618d7b7af6742549c1dbc8a99da71fba03ef50c7340a34b2516878e041702e57e9b494d3d1381eb90bd1169e4ba6dd1b2b5b3ec099c2aa9f9887951e6ef018fb58330102b18f51d778522b29ffcd2b89fb285ebf29f6d1e8bd87e15e795217819d0328349fe014014a21fa1cc0e632bdee176a1f423367fb8526d61bf1a856ed94bb31025672a23f65b5f04a466450bf632e41becb555bc22a0e86dc6ceb70fe06f56e94a7bbb3d3</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-    
-    
-    <summary type="html">游戏</summary>
-    
-    
-    
-    <category term="游戏" scheme="http://example.com/categories/%E6%B8%B8%E6%88%8F/"/>
-    
-    
-    <category term="记录" scheme="http://example.com/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo文章的隐藏</title>
-    <link href="http://example.com/p/6ecae093/"/>
-    <id>http://example.com/p/6ecae093/</id>
-    <published>2023-12-25T07:14:30.000Z</published>
-    <updated>2024-02-13T12:42:39.545Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-hide-posts</span><br></pre></td></tr></table></figure><h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">hide_posts:</span></span><br><span class="line">  <span class="comment"># 是否启用 hexo-hide-posts</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># 隐藏文章的 front-matter 标识，也可以改成其他你喜欢的名字</span></span><br><span class="line">  <span class="attr">filter:</span> <span class="string">hidden</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录</span></span><br><span class="line">  <span class="attr">noindex:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># 设置白名单，白名单中的 generator 可以访问隐藏文章</span></span><br><span class="line">  <span class="comment"># 常见的 generators 有：index, tag, category, archive, sitemap, feed, etc.</span></span><br><span class="line">  <span class="comment"># allowlist_generators: []</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># 设置黑名单，黑名单中的 generator 不可以访问隐藏文章</span></span><br><span class="line">  <span class="comment"># 如果同时设置了黑名单和白名单，白名单的优先级更高</span></span><br><span class="line">  <span class="comment"># blocklist_generators: [&#x27;*&#x27;]</span></span><br></pre></td></tr></table></figure><h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hidden: true</span><br></pre></td></tr></table></figure><h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p><a href="https://github.com/prinsss/hexo-hide-posts/blob/master/README_ZH.md">hexo-hide-posts&#x2F;README_ZH.md at master · prinsss&#x2F;hexo-hide-posts · GitHub</a></p><p><a href="https://hujiyi.github.io/2022/08/31/hexo-hide-posts/index.html">在 Hexo 中隐藏文章 | Laohoo</a></p>]]></content>
-    
-    
-    <summary type="html">文章</summary>
-    
-    
-    
-    <category term="建站" scheme="http://example.com/categories/%E5%BB%BA%E7%AB%99/"/>
-    
-    
-    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo文章的置顶</title>
-    <link href="http://example.com/p/e00e8e2f/"/>
-    <id>http://example.com/p/e00e8e2f/</id>
-    <published>2023-12-23T02:14:30.000Z</published>
-    <updated>2024-02-13T12:42:39.542Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="hexo-generator-index-custom"><a href="#hexo-generator-index-custom" class="headerlink" title="hexo-generator-index-custom"></a>hexo-generator-index-custom</h1><h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-index-custom --save</span><br><span class="line"></span><br><span class="line">npm uninstall hexo-generator-index</span><br></pre></td></tr></table></figure><h3 id="修改配置"><a href="#修改配置" class="headerlink" title="修改配置"></a>修改配置</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">index_generator:</span><br><span class="line">  path: &#x27;&#x27;</span><br><span class="line">  per_page: 10</span><br><span class="line">  order_by: -date</span><br><span class="line">  pagination_dir: page</span><br></pre></td></tr></table></figure><h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p>在文章开头的配置中添加 <code>sticky</code> 或 <code>top</code> 参数，可以置顶文章。</p><p>其值可以是 <code>true</code> 或数字，数字越大，文章排在越前面。</p><p>在文章开头的配置中添加 <code>hide</code> 参数，可以隐藏文章。</p><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><a href="https://github.com/im0o/hexo-generator-index-custom/blob/master/README_zh.md">https://github.com/im0o/hexo-generator-index-custom/blob/master/README_zh.md</a></p>]]></content>
-    
-    
-    <summary type="html">文章置顶</summary>
-    
-    
-    
-    <category term="建站" scheme="http://example.com/categories/%E5%BB%BA%E7%AB%99/"/>
-    
-    
-    <category term="hexo插件" scheme="http://example.com/tags/hexo%E6%8F%92%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>主题配置之butterfly—aplayer吸底</title>
-    <link href="http://example.com/p/2c96cc3d/"/>
-    <id>http://example.com/p/2c96cc3d/</id>
-    <published>2023-12-02T02:00:01.000Z</published>
-    <updated>2024-02-13T12:42:39.540Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="调整-Aplayer-收回方式"><a href="#调整-Aplayer-收回方式" class="headerlink" title="调整 Aplayer 收回方式"></a>调整 Aplayer 收回方式</h3><p>如果你觉得Aplayer占地太大，影响正常阅读，可以设置Aplayer收回时将音乐Cover也隐藏掉，只留下右侧的箭头栏。</p><p>请在主题配置文件中，将这段代码添加到 inject 去：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">inject:</span></span><br><span class="line">  <span class="attr">head:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&#x27;&lt;style type=&quot;text/css&quot;&gt;.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body&#123;left:-66px!important&#125;.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover&#123;left:0!important&#125;&lt;/style&gt;&#x27;</span></span><br></pre></td></tr></table></figure><h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p><a href="https://snow.js.org/butterfly-aplayer/">Butterfly：添加全局吸底 Aplayer 播放器 - Shiro 书架 (snow.js.org)</a></p>]]></content>
-    
-    
-    <summary type="html">butterfly</summary>
-    
-    
-    
-    <category term="建站" scheme="http://example.com/categories/%E5%BB%BA%E7%AB%99/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>主题配置之butterfly</title>
-    <link href="http://example.com/p/71fedb6e/"/>
-    <id>http://example.com/p/71fedb6e/</id>
-    <published>2023-12-01T02:00:01.000Z</published>
-    <updated>2024-02-13T12:42:39.538Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><h4 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h4><p>把method改为2</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Display the article introduction on homepage</span></span><br><span class="line"><span class="comment"># 1: description</span></span><br><span class="line"><span class="comment"># 2: both (if the description exists, it will show description, or show the auto_excerpt)</span></span><br><span class="line"><span class="comment"># 3: auto_excerpt (default)</span></span><br><span class="line"><span class="comment"># false: do not show the article introduction</span></span><br><span class="line"><span class="attr">index_post_content:</span></span><br><span class="line">  <span class="attr">method:</span> <span class="number">2</span></span><br><span class="line">  <span class="attr">length:</span> <span class="number">500</span> <span class="comment"># if you set method to 2 or 3, the length need to config</span></span><br></pre></td></tr></table></figure><p>文章</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">description:</span> <span class="string">butterfly使用</span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">butterfly使用</summary>
-    
-    
-    
-    <category term="建站" scheme="http://example.com/categories/%E5%BB%BA%E7%AB%99/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>主题报错之itsneko</title>
-    <link href="http://example.com/p/188581a7/"/>
-    <id>http://example.com/p/188581a7/</id>
-    <published>2023-11-24T02:14:30.000Z</published>
-    <updated>2024-02-13T12:42:39.543Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="totalcount-is-not-defined"><a href="#totalcount-is-not-defined" class="headerlink" title="totalcount is not defined"></a>totalcount is not defined</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-wordcount --save</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">ERROR Render HTML failed: index.html</span><br><span class="line">ReferenceError: D:\file\cal\hexo2\themes\itsneko\layout\layout.ejs:44</span><br><span class="line">    42|     &lt;%- body %&gt;</span><br><span class="line">    43|</span><br><span class="line"> &gt;&gt; 44|     &lt;%- partial(&#x27;_partial/footer&#x27;) %&gt;</span><br><span class="line">    45|</span><br><span class="line">    46|     &lt;%- partial(&#x27;_partial/search&#x27;) %&gt;</span><br><span class="line">    47|     &lt;%- partial(&#x27;_partial/back-top&#x27;) %&gt;</span><br><span class="line"></span><br><span class="line">D:\file\cal\hexo2\themes\itsneko\layout\_partial\footer.ejs:33</span><br><span class="line">    31|       &lt;% if (theme.postInfo.totalCount) &#123; %&gt;</span><br><span class="line">    32|       &amp;nbsp;&lt;i class=&quot;fas fa-chart-area&quot;&gt;&lt;/i&gt;&amp;nbsp;Total number of words: &amp;nbsp;&lt;span</span><br><span class="line"> &gt;&gt; 33|         class=&quot;white-color&quot;&gt;&lt;%= totalcount(site) %&gt;&lt;/span&gt;&amp;nbsp;</span><br><span class="line">    34|       &lt;% &#125; %&gt;</span><br><span class="line">    35|       &lt;% let socialClass = &#x27;&#x27; %&gt;</span><br><span class="line">    36|       &lt;% if (theme.busuanziStatistics &amp;&amp; theme.busuanziStatistics.enable) &#123; %&gt;</span><br><span class="line"></span><br><span class="line">totalcount is not defined</span><br><span class="line">    at eval (&quot;D:\\file\\cal\\hexo2\\themes\\itsneko\\layout\\_partial\\footer.ejs&quot;:39:7)</span><br><span class="line">    at footer (D:\file\cal\hexo2\node_modules\ejs\lib\ejs.js:703:17)</span><br><span class="line">    at _View._compiledSync (D:\file\cal\hexo2\node_modules\hexo\lib\theme\view.js:132:24)</span><br><span class="line">    at _View.renderSync (D:\file\cal\hexo2\node_modules\hexo\lib\theme\view.js:59:25)</span><br><span class="line">    at Object.partial (D:\file\cal\hexo2\node_modules\hexo\lib\plugins\helper\partial.js:34:15)</span><br><span class="line">    at eval (&quot;D:\\file\\cal\\hexo2\\themes\\itsneko\\layout\\layout.ejs&quot;:24:17)</span><br><span class="line">    at layout (D:\file\cal\hexo2\node_modules\ejs\lib\ejs.js:703:17)</span><br><span class="line">    at _View._compiled (D:\file\cal\hexo2\node_modules\hexo\lib\theme\view.js:136:50)</span><br><span class="line">    at _View.render (D:\file\cal\hexo2\node_modules\hexo\lib\theme\view.js:39:17)</span><br><span class="line">    at D:\file\cal\hexo2\node_modules\hexo\lib\theme\view.js:51:25</span><br><span class="line">    at tryCatcher (D:\file\cal\hexo2\node_modules\bluebird\js\release\util.js:16:23)</span><br><span class="line">    at Promise._settlePromiseFromHandler (D:\file\cal\hexo2\node_modules\bluebird\js\release\promise.js:547:31)</span><br><span class="line">    at Promise._settlePromise (D:\file\cal\hexo2\node_modules\bluebird\js\release\promise.js:604:18)</span><br><span class="line">    at Promise._settlePromise0 (D:\file\cal\hexo2\node_modules\bluebird\js\release\promise.js:649:10)</span><br><span class="line">    at Promise._settlePromises (D:\file\cal\hexo2\node_modules\bluebird\js\release\promise.js:729:18)</span><br><span class="line">    at _drainQueueStep (D:\file\cal\hexo2\node_modules\bluebird\js\release\async.js:93:12)</span><br><span class="line">    at _drainQueue (D:\file\cal\hexo2\node_modules\bluebird\js\release\async.js:86:9)</span><br><span class="line">    at Async._drainQueues (D:\file\cal\hexo2\node_modules\bluebird\js\release\async.js:102:5)</span><br><span class="line">    at Async.drainQueues [as _onImmediate] (D:\file\cal\hexo2\node_modules\bluebird\js\release\async.js:15:14)</span><br><span class="line">    at process.processImmediate (node:internal/timers:476:21)</span><br></pre></td></tr></table></figure><h3 id="Cannot-read-‘enable’"><a href="#Cannot-read-‘enable’" class="headerlink" title="Cannot read ‘enable’"></a>Cannot read ‘enable’</h3><p>可能是hexo文件夹放到了themes里</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line">Unhandled rejection TypeError: D:\file\cal\neko\themes\itsneko\layout\index.ejs:2</span><br><span class="line">    1| &lt;% if (is_home() &amp;&amp; page.current === 1) &#123; %&gt;</span><br><span class="line"> &gt;&gt; 2| &lt;%- partial(&#x27;_partial/index-cover&#x27;) %&gt;</span><br><span class="line">    3| &lt;% &#125; else &#123; %&gt;</span><br><span class="line">    4| &lt;%- partial(&#x27;_partial/bg-cover&#x27;) %&gt;</span><br><span class="line">    5| &lt;% &#125; %&gt;</span><br><span class="line"></span><br><span class="line">D:\file\cal\neko\themes\itsneko\layout\_partial\index-cover.ejs:65</span><br><span class="line">    63|     &lt;div class=&quot;carousel-item red white-text bg-cover about-cover&quot;&gt;</span><br><span class="line">    64|         &lt;div class=&quot;container&quot;&gt;</span><br><span class="line"> &gt;&gt; 65|             &lt;%- partial(&#x27;_partial/bg-cover-content&#x27;) %&gt;</span><br><span class="line">    66|</span><br><span class="line">    67|             &lt;div class=&quot;cover-btns&quot;&gt;</span><br><span class="line">    68|                 &lt;a href=&quot;#indexCard&quot; class=&quot;waves-effect waves-light btn&quot;&gt;</span><br><span class="line"></span><br><span class="line">D:\file\cal\neko\themes\itsneko\layout\_partial\bg-cover-content.ejs:13</span><br><span class="line">    11|</span><br><span class="line">    12|             &lt;div class=&quot;description center-align&quot;&gt;</span><br><span class="line"> &gt;&gt; 13|                 &lt;% if (theme.subtitle.enable) &#123; %&gt;</span><br><span class="line">    14|                 &lt;span id=&quot;subtitle&quot;&gt;&lt;/span&gt;</span><br><span class="line">    15|                 &lt;script src=&quot;https://cdn.jsdelivr.net/npm/typed.js@2.0.11&quot;&gt;&lt;/script&gt;</span><br><span class="line">    16|                 &lt;script&gt;</span><br><span class="line"></span><br><span class="line">Cannot read properties of undefined (reading &#x27;enable&#x27;)</span><br><span class="line">    at eval (&quot;D:\\file\\cal\\neko\\themes\\itsneko\\layout\\_partial\\bg-cover-content.ejs&quot;:27:27)</span><br><span class="line">    at bg-cover-content (D:\file\cal\neko\node_modules\ejs\lib\ejs.js:703:17)</span><br><span class="line">    at _View._compiledSync (D:\file\cal\neko\node_modules\hexo\lib\theme\view.js:132:24)</span><br><span class="line">    at _View.renderSync (D:\file\cal\neko\node_modules\hexo\lib\theme\view.js:59:25)</span><br><span class="line">    at Object.partial (D:\file\cal\neko\node_modules\hexo\lib\plugins\helper\partial.js:34:15)</span><br><span class="line">    at eval (&quot;D:\\file\\cal\\neko\\themes\\itsneko\\layout\\_partial\\index-cover.ejs&quot;:31:17)</span><br><span class="line">    at index-cover (D:\file\cal\neko\node_modules\ejs\lib\ejs.js:703:17)</span><br><span class="line">    at _View._compiledSync (D:\file\cal\neko\node_modules\hexo\lib\theme\view.js:132:24)</span><br><span class="line">    at _View.renderSync (D:\file\cal\neko\node_modules\hexo\lib\theme\view.js:59:25)</span><br><span class="line">    at Object.partial (D:\file\cal\neko\node_modules\hexo\lib\plugins\helper\partial.js:34:15)</span><br><span class="line">    at eval (&quot;D:\\file\\cal\\neko\\themes\\itsneko\\layout\\index.ejs&quot;:13:17)</span><br><span class="line">    at index (D:\file\cal\neko\node_modules\ejs\lib\ejs.js:703:17)</span><br><span class="line">    at _View._compiled (D:\file\cal\neko\node_modules\hexo\lib\theme\view.js:136:50)</span><br><span class="line">    at _View.render (D:\file\cal\neko\node_modules\hexo\lib\theme\view.js:39:17)</span><br><span class="line">    at D:\file\cal\neko\node_modules\hexo\lib\hexo\index.js:64:21</span><br><span class="line">    at tryCatcher (D:\file\cal\neko\node_modules\bluebird\js\release\util.js:16:23)</span><br><span class="line">    at D:\file\cal\neko\node_modules\bluebird\js\release\method.js:15:34</span><br><span class="line">    at RouteStream._read (D:\file\cal\neko\node_modules\hexo\lib\hexo\router.js:47:5)</span><br><span class="line">    at Readable.read (node:internal/streams/readable:496:12)</span><br><span class="line">    at resume_ (node:internal/streams/readable:999:12)</span><br><span class="line">    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</span><br></pre></td></tr></table></figure><h3 id="Cannot-read-‘album’"><a href="#Cannot-read-‘album’" class="headerlink" title="Cannot read ‘album’"></a>Cannot read ‘album’</h3><p><a href="https://gitee.com/nekodeng/hexo-theme-itsneko#%E7%9B%B8%E5%86%8C">https://gitee.com/nekodeng/hexo-theme-itsneko#%E7%9B%B8%E5%86%8C</a></p><p>name，url_name，album内的title这三个字段内容必须与新取名文件夹名称相同，否则运行报错。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">Unhandled rejection TypeError: D:\file\cal\hexo\themes\itsneko\layout\galleries.ejs:144</span><br><span class="line">    142|             &lt;div class=&quot;box&quot;&gt;</span><br><span class="line">    143|             &lt;% if (site.data &amp;&amp; site.data.gallery) &#123; %&gt;</span><br><span class="line"> &gt;&gt; 144|                 &lt;% var galleries = site.data.gallery;</span><br><span class="line">    145|                     var pageTitle = page.title;</span><br><span class="line">    146|                     function getCurrentGallery(galleries, pageTitle) &#123;</span><br><span class="line">    147|                         for (let i = 0; i &lt; galleries.length; i++) &#123;</span><br><span class="line"></span><br><span class="line">Cannot read properties of undefined (reading &#x27;album&#x27;)</span><br><span class="line">    at eval (&quot;D:\\file\\cal\\hexo\\themes\\itsneko\\layout\\galleries.ejs&quot;:73:49)</span><br><span class="line">    at galleries (D:\file\cal\hexo\node_modules\ejs\lib\ejs.js:703:17)</span><br><span class="line">    at _View._compiled (D:\file\cal\hexo\node_modules\hexo\lib\theme\view.js:136:50)</span><br><span class="line">    at _View.render (D:\file\cal\hexo\node_modules\hexo\lib\theme\view.js:39:17)</span><br><span class="line">    at D:\file\cal\hexo\node_modules\hexo\lib\hexo\index.js:64:21</span><br><span class="line">    at tryCatcher (D:\file\cal\hexo\node_modules\bluebird\js\release\util.js:16:23)</span><br><span class="line">    at D:\file\cal\hexo\node_modules\bluebird\js\release\method.js:15:34</span><br><span class="line">    at RouteStream._read (D:\file\cal\hexo\node_modules\hexo\lib\hexo\router.js:47:5)</span><br><span class="line">    at Readable.read (node:internal/streams/readable:496:12)</span><br><span class="line">    at resume_ (node:internal/streams/readable:999:12)</span><br><span class="line">    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">itsneko启动报错</summary>
-    
-    
-    
-    <category term="建站" scheme="http://example.com/categories/%E5%BB%BA%E7%AB%99/"/>
-    
-    
-    <category term="hexo插件" scheme="http://example.com/tags/hexo%E6%8F%92%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>插件报错之asset-image</title>
-    <link href="http://example.com/p/7e7a0ee/"/>
-    <id>http://example.com/p/7e7a0ee/</id>
-    <published>2023-11-23T07:14:30.000Z</published>
-    <updated>2024-02-13T12:42:39.533Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="layout-ejs"><a href="#layout-ejs" class="headerlink" title="layout.ejs"></a>layout.ejs</h1><h2 id="asset-image报错"><a href="#asset-image报错" class="headerlink" title="asset-image报错"></a>asset-image报错</h2><h3 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h3><p>安装hexo-asset-image后，启动项目：</p><p>域名是xxx.io的情况下，图片路径会从原本&#x2F;xxx.jpg变成 &#x2F;.io&#x2F;xxx.jpg</p><h3 id="解锁方法"><a href="#解锁方法" class="headerlink" title="解锁方法"></a>解锁方法</h3><p>打开文件”hexo\node_modules\hexo-asset-image\index.js”，在第26行添加以下代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">link = link.substring(beginPos, endPos) + &#x27;/&#x27; + appendLink</span><br></pre></td></tr></table></figure><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><a href="https://github.com/xcodebuild/hexo-asset-image/issues/47">域名是xxx.io的情况下，图片路径会从原本&#x2F;xxx.jpg变成 &#x2F;.io&#x2F;xxx.jpg · Issue #47 · xcodebuild&#x2F;hexo-asset-image · GitHub</a></p>]]></content>
-    
-    
-    <summary type="html">asset-image报错</summary>
-    
-    
-    
-    <category term="建站" scheme="http://example.com/categories/%E5%BB%BA%E7%AB%99/"/>
-    
-    
-    <category term="hexo插件" scheme="http://example.com/tags/hexo%E6%8F%92%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
-    <link href="http://example.com/p/4a17b156/"/>
-    <id>http://example.com/p/4a17b156/</id>
-    <published>2023-05-14T07:55:00.000Z</published>
-    <updated>2024-01-20T13:35:47.872Z</updated>
+    <link href="http://example.com/2024/05/08/hello-world/"/>
+    <id>http://example.com/2024/05/08/hello-world/</id>
+    <published>2024-05-08T12:33:09.101Z</published>
+    <updated>2024-05-08T12:33:09.101Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
-    <summary type="html">Welcome to Hexo! This is your very first post.</summary>
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
     
     
     
-    <category term="建站" scheme="http://example.com/categories/%E5%BB%BA%E7%AB%99/"/>
-    
-    
-    <category term="hello" scheme="http://example.com/tags/hello/"/>
     
   </entry>
   
   <entry>
-    <title>Hello214</title>
-    <link href="http://example.com/p/4a17b156/"/>
-    <id>http://example.com/p/4a17b156/</id>
-    <published>2023-05-13T10:55:01.000Z</published>
-    <updated>2024-02-13T14:21:35.475Z</updated>
+    <title>1</title>
+    <link href="http://example.com/2024/05/07/travel/1/"/>
+    <id>http://example.com/2024/05/07/travel/1/</id>
+    <published>2024-05-07T07:55:08.000Z</published>
+    <updated>2024-05-08T14:40:18.514Z</updated>
     
-    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="4613f806818e6d5c4d5a526d034c4c783d339fea3a2ecb9d086886dcf1b1d621">fb95aa7c407f8ccaa0f86ec63474b39fe40e787fba7b36ae75f10e14fef313d2724a37ab2712fd295685fc75a7c24f7d70c783123d8072d6778b4c4f620f780b104646fbe25074796f6d4ad7700d7c9533053fd2b2ceee1a82d5daae015fed2f25a0305b3415421b1d92e146de9cb93cd37ac7b36b4ff26abe898ac66bc3945873a9296d0bad827b3bf991b59b02a9127ae424b26c595fee642ffb7c746ed50e717c8450fa09dc81b633a4722b6c64dee46bb3dfb945d7591e4ab4482508fade2736dbb5597e282ece117108d6303fa1c9807015f3e0e72b55a73bdc0013dce9b486be3b5e063f1cf186668e12a085cc5814447682cdd869e9a98264b9021dae237eb559ce22f257293d7eac8900da343beed4ddf53b11d32a572b3321f2157fe971a9c84c6ff5cff62e75a8b06e934b5923541e8c199ca95fc728e8c16bf5f780158c482d4de7e8a95c25c7de9561bea7c2d1a3eee312b84770aa64da3b6459069f51cba66645e786d0e9e1ec3f580f8458c945266ddc89ef4549fd2b96e2f81dd76de451694fa632adeeb7cae36b2a0dbecd58f0fb8e50d935904faa4a6a569c06807f1c5b05d35b4af76b5a2868e63d5fa3bacd8dbc72d36d3fba41949663728592cadd97b2aaca80b4a7fbfb61fb1d648a2d93e9156ca2cb855da1649922df46526c8f60964ea1a17f91d505cea6fe7a9b3442eefe8f7ed5a4a74f715e4bed53e4adbf93e37891c47207629a26b40752e779546310ca262b7d53faf2c64df238630bf348d5a1226fc1919077f1a4e596cc9b7217bb934467ffcd64d7fb8034ed5e06c6c8dd55489daca34ef35ee8a092c912567f71dfbb5d5698dd16f81648e3c013cb251202fc2fb77d72a8293efa8cb59558184506cf82770c905166e8392e2cfb8935e652c2d6a7fb464e34cf51138bba41610d768cf5ebc658f198994674091886a4e28588c04d1586e4236e29411d6142322f77c72a1abbce82c2ded49708d43624717fe4878a2f216d6bfc239013ace79d20ebefc21f7c787b05b8a47df5b59ec575d05561640d6ab536e75cbbe3ec5e03db5ab7bec1b498bdf089d0e1ed150ee34c0250670a672bc482ceb55b8e55457b2ebf09673e52097141e6f918cde9f1815f6117c716a7d5a0c06bcf6f64b1ccad563027b186421c1793463ed5e43de0c169bf52ae2bc22bef83a978f8505c6088d22e337fcc3866a6caaf958c68108bc90dd9839c63c6771eabded8b54dabc8d2e1179410b47816ec541f88d3b60c9006b657e5c1d11466131052d3dcc8fada1b4563a1c89536cbb4fb30eec815c3198b07e1553999c41f9f9c907e99a9afda9e035b045b1790d10a57bf4bce71bb230165692ccbe03b85ebab67729e56c38fe2022ba38e55d52b72981db38b2f3e982f1888ec2d1b7b94cc67902e6fc7cc477a4f34bf6204b73b97100e31fbe3af061152aafdbc88eb149c119ff827a83d8f94048168741b4be5caa80247064a3718c86bfe41b613e5d3ef606cab2563a603eac5d9718bfa7458af9ec345d288c31a5137c73ab76122fa3a3d5cd4d8d81363c7b175d62ad361053c0fe822f5bedb68255bd4b8287c98164a0e8e8a0b990a5a644221055b5e87d8b431cd97610a99e9735c6a93d0f4621cc0e655b965ee0b42032a56d72baa6f8d9c38e808511ac03330aae49469f7f468bb02823f0ccbb2ea64a3fc50fc4ac2bf5cd3091969470ff12e82a57dfb7e1444f7d189d1bf38130658dd83a9e8a31ef81a91b0e000c000587060265ce57c896c243475afdddb6a291cd175cba33f7190b86958e49299c157b2c6a2295603ed7f004485b53dae8dad6387e9fb72bb21ba450e222726508a8de5dfb677d74bba6134c79d63ac092ccb7c663db1e3701883672d23975ba248cb051b2d151a14f52c8ad1fac7818447fe51a4c28efc6fe5ab544b6f8f4945ff2f2ea14d7720107b0903de9b5415ae4433ca03ee086337c268ef21073e12e6983161baa9ba758035afd9dccd02dfae0cebc6c4fe31e010ed1debf3449cd1c4656d8c7855d097f7e7ea928b88b4680610281873e046d45d4882d23aaaac6e1fe260fbec1ee7c2b4357214de18922f31447d1d56d0477b262e960d7236d52bf472c54f65727b1ca8807a58441d3595a8b19a58926bcbdb1183e90662496131bec6f5e6535fc18abab8059185140f90127bae51848ae70e77098a636f1afb235712668ecb6519b396588df6cec92a048e9edc89147651a592517219a4750a0d9ec3a2bfa35ff5e19f6ab7787b0d2d579615b3845b966ec0f02fa575de6f8eb2459aaf934465d13ca9f7af013428aedad5369cb7f83fb2e9889b34da2aeef8a073b584d2adb7758279220037d8b315d9bb245d86be7762eae19791e1cc798c28ad38908bd9ad35ec8c21375550082dfdb3d9933a42c15e2451803fcb473ee23a3fe76455b51a92f40e001a114bd889eb792eaf3c4e47ddd279e99e4536e6d123c5b82346c45e7bc3200b14c00c07396a37e7c0ec4d2fd43671d69feab8bdb658393f3f90b892b6eab6430e5cba206f539664ff538b057f567a96f6698410af706a5c47b94154cfd5d3b41c76e7d6d6f3e9ad76ace9acbdf33a83fa0f1b295a02dc63c68f8e9f5b689e8b7bd869d7bd5c107ecec327052f45cfb549e0c88759b93911522e9299827d4bb59b7ebd084181aecbee23ff6cffd0246a07a28be21c25178b77fa34031b98eeeff4dd19aad03947d2c18a13413898bb1b64ad19be2353018c3f89d21bbd7a1af80e74c2006bc207f51c1d3b5cffef0ebcc05be657fcd4644a53aee68658b444d079c865af60eb490d9dbec024deff7f88b94206082167c677a5aa4229fd882e27e8d812c43943217453b20910eb2572b7cd8ba3c91ab29b0775564eae000cb923f609cdcd868b9b8a8723f56731639d95852403b24c0bccd6aa446c180f4985961460be45864f41a93192927d6ee866f288880e43641599267c4e3f947ad70557d508bccbb364b1fafe39bae7f06068b96f837396fb669af191dc158cd228de884d9d4f5fbc86de408940f8186d457629ebb21ffe35c48bf5b27164e3a82cd89182de9faeb8fe3cb60454cb0acfe370b5316edd285bdae8f5ab9ecf8d73a89c985cdb0e175abeba8301e999a1d984c4c5d9432db6ab28dd63d3d5a0eaf32c17320be799c7d20b439baae5c096007ed8393ef6b7f97cb474c7181f9da27c6ad4f48ba43ac5bc7dff5f8d2b7c9335ac99827775095a17d22e53cb9e4f178918860f5d2b29d7</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-    
-    
-    <summary type="html">Welcome to Hexo! This is your very second post.</summary>
+    <content type="html"><![CDATA[<p><img src="https://vip.helloimg.com/i/2024/01/21/65ac63ba05fdd.jpg" alt="IMG_20230909.jpg"></p>]]></content>
     
     
+    <summary type="html">摘要</summary>
     
-    <category term="建站" scheme="http://example.com/categories/%E5%BB%BA%E7%AB%99/"/>
     
     
-    <category term="hello" scheme="http://example.com/tags/hello/"/>
+    <category term="life" scheme="http://example.com/categories/life/"/>
+    
+    
+    <category term="玩" scheme="http://example.com/tags/%E7%8E%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hz</title>
+    <link href="http://example.com/2024/01/15/travel/%E6%9D%AD%E5%B7%9E/"/>
+    <id>http://example.com/2024/01/15/travel/%E6%9D%AD%E5%B7%9E/</id>
+    <published>2024-01-15T11:10:24.919Z</published>
+    <updated>2024-05-08T13:09:11.704Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="杭州"><a href="#杭州" class="headerlink" title="杭州"></a>杭州</h3><p><img src="https://vip.helloimg.com/i/2024/01/15/65a511e042006.jpg" alt="IMG_20240114_123644.jpg"><br><img src="https://vip.helloimg.com/i/2024/01/15/65a511de7d236.jpg" alt="IMG_20240114_125540.jpg"><br><img src="https://vip.helloimg.com/i/2024/01/15/65a511e09ef4f.jpg" alt="IMG_20240114_133625.jpg"><br><img src="https://vip.helloimg.com/i/2024/01/15/65a511dfe3755.jpg" alt="IMG_20240114_133924.jpg"><br><img src="https://vip.helloimg.com/i/2024/01/15/65a511e01c963.jpg" alt="IMG_20240114_134017.jpg"><br><img src="https://vip.helloimg.com/i/2024/01/15/65a511decc488.jpg" alt="IMG_20240114_134328.jpg"><br><img src="https://vip.helloimg.com/i/2024/01/15/65a511e07f0db.jpg" alt="IMG_20240114_134730.jpg"><br><img src="https://vip.helloimg.com/i/2024/01/15/65a511deafb59.jpg" alt="IMG_20240114_134736.jpg"></p>]]></content>
+    
+    
+    <summary type="html">摘要</summary>
+    
+    
+    
+    <category term="life" scheme="http://example.com/categories/life/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>舟山</title>
+    <link href="http://example.com/2023/09/09/travel/%E8%88%9F%E5%B1%B1/"/>
+    <id>http://example.com/2023/09/09/travel/%E8%88%9F%E5%B1%B1/</id>
+    <published>2023-09-09T07:55:00.000Z</published>
+    <updated>2024-05-08T13:08:58.485Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://vip.helloimg.com/i/2024/01/21/65ac63ba05fdd.jpg" alt="IMG_20230909.jpg"></p>]]></content>
+    
+    
+    <summary type="html">摘要</summary>
+    
+    
+    
+    <category term="life" scheme="http://example.com/categories/life/"/>
+    
+    
+    <category term="玩" scheme="http://example.com/tags/%E7%8E%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>嘉兴</title>
+    <link href="http://example.com/2023/07/14/travel/%E5%98%89%E5%85%B4/"/>
+    <id>http://example.com/2023/07/14/travel/%E5%98%89%E5%85%B4/</id>
+    <published>2023-07-14T07:55:00.000Z</published>
+    <updated>2024-05-08T13:09:06.460Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://vip.helloimg.com/i/2024/01/16/65a65486c4956.jpg" alt="j_04.jpg"><br><img src="https://vip.helloimg.com/i/2024/01/16/65a65496800d7.jpg" alt="j_09.jpg"><br><img src="https://vip.helloimg.com/i/2024/01/16/65a65496d5ff5.jpg" alt="j_03.jpg"><br><img src="https://vip.helloimg.com/i/2024/01/16/65a654980ca37.jpg" alt="j_12.jpg"><br><img src="https://vip.helloimg.com/i/2024/01/16/65a6549809a72.jpg" alt="j_14.jpg"></p>]]></content>
+    
+    
+    <summary type="html">摘要</summary>
+    
+    
+    
+    <category term="life" scheme="http://example.com/categories/life/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>绍兴</title>
+    <link href="http://example.com/2023/06/23/travel/%E7%BB%8D%E5%85%B4/"/>
+    <id>http://example.com/2023/06/23/travel/%E7%BB%8D%E5%85%B4/</id>
+    <published>2023-06-23T04:55:00.000Z</published>
+    <updated>2024-02-13T02:17:38.917Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://vip.helloimg.com/i/2024/01/21/65acf71b31f2c.jpg" alt="IMG_20230623_144723.jpg"></p>]]></content>
+    
+    
+    <summary type="html">我们</summary>
+    
+    
+    
+    <category term="life" scheme="http://example.com/categories/life/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>苏州两日游</title>
+    <link href="http://example.com/2022/07/08/travel/%E8%8B%8F%E5%B7%9E/"/>
+    <id>http://example.com/2022/07/08/travel/%E8%8B%8F%E5%B7%9E/</id>
+    <published>2022-07-08T04:55:00.000Z</published>
+    <updated>2024-02-13T12:56:07.380Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="苏州"><a href="#苏州" class="headerlink" title="苏州"></a>苏州</h2><p><img src="https://vip.helloimg.com/i/2024/01/17/65a7afd7db1c9.jpg" alt="IMG_20230408_34022176.jpg"><br><img src="https://vip.helloimg.com/i/2024/01/17/65a7afd80b4d6.jpg" alt="IMG_20230408_34116999.jpg"><br><img src="https://vip.helloimg.com/i/2024/01/17/65a7afd7e61a5.jpg" alt="IMG_20230408_34146206.jpg"><br><img src="https://vip.helloimg.com/i/2024/01/17/65a7afd7ed3bc.jpg" alt="IMG_20230408_34205271.jpg"><br><img src="https://vip.helloimg.com/i/2024/01/17/65a7afd80c82a.jpg" alt="IMG_20230409_15732783.jpg"><br><img src="https://vip.helloimg.com/i/2024/01/17/65a7afd834995.jpg" alt="IMG_20230409_15801498.jpg"><br><img src="https://vip.helloimg.com/i/2024/01/17/65a7afd81c929.jpg" alt="IMG_20230409_15836708.jpg"><br><img src="https://vip.helloimg.com/i/2024/01/17/65a7afd81ad59.jpg" alt="IMG_20230409_15858110.jpg"></p>]]></content>
+    
+    
+    <summary type="html">我们</summary>
+    
+    
+    
+    <category term="life" scheme="http://example.com/categories/life/"/>
+    
     
   </entry>
   
